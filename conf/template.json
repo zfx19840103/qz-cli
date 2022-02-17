@@ -1,8 +1,14 @@
 {
-    "webpack-multipage": {
-        "name": "多页面webpack脚手架",
-        "value": "webpack",
+    "multipage": {
+        "name": "多页面",
+        "value": "multipage",
         "git": "https://github.com/zfx19840103/multipage-webpack-scaffolding.git",
+        "options": []
+    },
+    "vueSimple": {
+        "name": "vueSimple",
+        "value": "vueSimple",
+        "git": "https://github.com/zfx19840103/vueSimple.git",
         "options": []
     }
 }
