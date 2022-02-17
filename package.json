@@ -1,43 +1,43 @@
 {
-  "name": "allen-cli",
-  "version": "1.0.1",
-  "description": "一套快速生成项目的脚手架",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "allen": "bin/allen",
-    "allen-init": "bin/allen-init"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kkxiaojun/allen-cli.git"
-  },
-  "author": "kkxiaojun",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.0",
-    "commander": "^6.1.0",
-    "download-git-repo": "^3.0.2",
-    "ejs": "^2.7.4",
-    "git-clone": "^0.1.0",
-    "glob": "^7.1.6",
-    "handlebars": "^4.7.6",
-    "inquirer": "^6.5.2",
-    "latest-version": "^5.1.0",
-    "log-symbols": "^4.0.0",
-    "metalsmith": "^2.3.0",
-    "minimatch": "^3.0.4",
-    "ora": "^5.1.0",
-    "rimraf": "^3.0.2",
-    "wrap-ansi": "^7.0.0"
-  },
-  "homepage": "https://github.com/kkxiaojun/allen-cli.git",
-  "devDependencies": {},
-  "keywords": [
-    "cli",
-    "模板",
-    "构建工具"
-  ]
+    "name": "qz-cli",
+    "version": "1.0.0",
+    "description": "脚手架下载工具",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "qz": "bin/qz",
+        "qz-init": "bin/qz-init"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zfx19840103/qz-cli.git"
+    },
+    "author": "qz-zfx",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "commander": "^6.1.0",
+        "download-git-repo": "^3.0.2",
+        "ejs": "^2.7.4",
+        "git-clone": "^0.1.0",
+        "glob": "^7.1.6",
+        "handlebars": "^4.7.6",
+        "inquirer": "^6.5.2",
+        "latest-version": "^5.1.0",
+        "log-symbols": "^4.0.0",
+        "metalsmith": "^2.3.0",
+        "minimatch": "^3.0.4",
+        "ora": "^5.1.0",
+        "rimraf": "^3.0.2",
+        "wrap-ansi": "^7.0.0"
+    },
+    "homepage": "https://github.com/zfx19840103/qz-cli.git",
+    "devDependencies": {},
+    "keywords": [
+        "cli",
+        "模板",
+        "构建工具"
+    ]
 }
