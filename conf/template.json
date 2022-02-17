@@ -4,22 +4,5 @@
         "value": "webpack",
         "git": "https://github.com/zfx19840103/multipage-webpack-scaffolding.git",
         "options": []
-    },
-    "vue": {
-        "name": "基于vue2项目",
-        "value": "vue",
-        "git": "https://github.com/kkxiaojun/vue-tpl.git",
-        "options": []
-    },
-    "vue-multi-page": {
-        "name": "基于vue的活动页h5多页面",
-        "value": "vue",
-        "git": "https://github.com/kkxiaojun/vue-multi-page.git"
-    },
-    "rollup": {
-        "name": "rollup做构建工具，编写组件或库",
-        "value": "rollup",
-        "git": "https://github.com/kkxiaojun/rollup-tpl.git",
-        "options": []
     }
 }
