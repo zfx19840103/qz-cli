@@ -10,5 +10,11 @@
         "value": "vueSimple",
         "git": "https://github.com/zfx19840103/vueSimple.git",
         "options": []
+    },
+    "vueH5": {
+        "name": "vueH5",
+        "value": "vueH5",
+        "git": "https://github.com/zfx19840103/h5.git",
+        "options": []
     }
 }

@@ -1,6 +1,6 @@
 {
     "name": "qz-cli-node",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "description": "脚手架下载工具",
     "main": "index.js",
     "scripts": {
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zfx19840103/qz-cli.git"
+        "url": "..."
     },
     "author": "qz-zfx",
     "license": "ISC",
@@ -33,11 +33,9 @@
         "rimraf": "^3.0.2",
         "wrap-ansi": "^7.0.0"
     },
-    "homepage": "https://github.com/zfx19840103/qz-cli.git",
+    "homepage": "..",
     "devDependencies": {},
     "keywords": [
-        "cli",
-        "模板",
-        "构建工具"
+        "cli"
     ]
 }
