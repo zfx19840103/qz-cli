@@ -55,7 +55,7 @@ main();
 async function main() {
     let projectRoot, templateName
     try {
-        console.log("检测版本");
+        // console.log("检测版本");
         // 检测版本
         let isUpate = await checkVersion();
         // 更新版本
@@ -88,7 +88,7 @@ function checkVersion() {
     return new Promise(async(resolve, reject) => {
         let webVersion = await latestVersion(`${CONST.CLI_NAME}`);
         let localVersion = require("../package.json").version;
-        console.log(`本地版本${localVersion}, 最新版本${webVersion}`);
+        console.log(`当前版本${localVersion}`);
         let webVersionArr = webVersion.split(".");
         let localVersionArr = localVersion.split(".");
         let isNew = webVersionArr.some((item, index) => {

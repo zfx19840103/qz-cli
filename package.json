@@ -1,7 +1,7 @@
 {
     "name": "qz-cli-node",
-    "version": "1.0.6",
-    "description": "脚手架下载工具",
+    "version": "1.1.3",
+    "description": "模版下载工具",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
     "author": "qz-zfx",
     "license": "ISC",
     "dependencies": {
+        "alphabetjs": "^0.1.4",
         "chalk": "^4.1.0",
         "commander": "^6.1.0",
         "download-git-repo": "^3.0.2",
@@ -34,7 +35,6 @@
         "wrap-ansi": "^7.0.0"
     },
     "homepage": "..",
-    "devDependencies": {},
     "keywords": [
         "cli"
     ]

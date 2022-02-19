@@ -1,7 +1,12 @@
 #!/usr/bin/env node
 const program = require('commander')
+const _vs = require('../package').version;
 
-console.log('version', require('../package').version)
+const Alphabet = require('alphabetjs');
+
+const str = Alphabet('QZNODECLI','stereo');
+
+console.log(str);
 
 program
   .version(require('../package').version)
